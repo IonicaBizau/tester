@@ -7,7 +7,7 @@ Unit testing made simple and fun.
 ## Installation
 
 ```sh
-$ npm i --save tester
+$ npm i --save-dev tester
 ```
 
 After installing the package, you just need to set up a test file where you `require` the `tester` package. Your `package.json` will look like this:

@@ -16,6 +16,8 @@
     "emojic": "^1.0.0",
     "expect": "^1.13.0",
     "indent": "0.0.1",
+    "indento": "^1.0.0",
+    "queoid": "^1.0.0",
     "try-async": "^1.0.0"
   },
   "blah": {
@@ -45,6 +47,7 @@
         "p": "`test/your-test-file.js` will contain your tests, like documented below."
       }
     ],
-    "ex_img": "http://i.imgur.com/WzLYt7t.png"
+    "ex_img": "http://i.imgur.com/WzLYt7t.png",
+    "is_dev": true
   }
 }
