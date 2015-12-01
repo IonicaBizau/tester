@@ -1,6 +1,6 @@
 # tester [![Support this project][donate-now]][paypal-donations]
 
-Unit testing made simple and fun.
+Unit testing made simple and fun: flat colors and emoji in your tests.
 
 [![tester](http://i.imgur.com/WzLYt7t.png)](#)
 
