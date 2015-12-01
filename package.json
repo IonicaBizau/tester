@@ -7,7 +7,7 @@
     "example": "example"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "license": "MIT",
@@ -15,6 +15,36 @@
     "color-it": "^1.1.0",
     "emojic": "^1.0.0",
     "expect": "^1.13.0",
-    "indent": "0.0.1"
+    "indent": "0.0.1",
+    "try-async": "^1.0.0"
+  },
+  "blah": {
+    "installation": [
+      {
+        "p": "After installing the package, you just need to set up a test file where you `require` the `tester` package. Your `package.json` will look like this:"
+      },
+      {
+        "code": {
+          "language": "js",
+          "content": [
+            "{",
+            "  \"name\": \"tester\",",
+            "  ...",
+            "  \"scripts\": {",
+            "    \"test\": \"node test/your-test-file.js\"",
+            "  },",
+            "  ...",
+            "  \"devDependencies\": {",
+            "    \"tester\": \"^1.0.0\"",
+            "  }",
+            "}"
+          ]
+        }
+      },
+      {
+        "p": "`test/your-test-file.js` will contain your tests, like documented below."
+      }
+    ],
+    "ex_img": "http://i.imgur.com/WzLYt7t.png"
   }
 }
