@@ -4,7 +4,8 @@
   "description": "Unit testing made simple and fun: flat colors and emoji in your tests.",
   "main": "lib/index.js",
   "directories": {
-    "example": "example"
+    "example": "example",
+    "test": "test"
   },
   "scripts": {
     "test": "node test"
@@ -49,5 +50,22 @@
     ],
     "ex_img": "http://i.imgur.com/WzLYt7t.png",
     "is_dev": true
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/tester.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/tester/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/tester#readme",
+  "keywords": [
+    "test",
+    "unit",
+    "testing",
+    "emoji",
+    "flat",
+    "colors"
+  ]
 }
