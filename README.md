@@ -2,6 +2,13 @@
 
 Unit testing made simple and fun: flat colors and emoji in your tests.
 
+## :start: Features
+
+ - It does *not* create any globals.
+ - Writing messages in custom streams (by default in `process.stdout`).
+ - Easy interface for handling sync and async stuff.
+ - Emoji & Flat colors :art:
+
 [![tester](http://i.imgur.com/WzLYt7t.png)](#)
 
 ## Installation
@@ -155,9 +162,6 @@ Groups more tests together.
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
-
-## Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
 
 ## License
 

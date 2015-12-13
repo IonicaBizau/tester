@@ -23,6 +23,19 @@
     "try-async": "^1.0.0"
   },
   "blah": {
+    "description": [
+      {
+        "h2": ":start: Features"
+      },
+      {
+        "ul": [
+          "It does *not* create any globals.",
+          "Writing messages in custom streams (by default in `process.stdout`).",
+          "Easy interface for handling sync and async stuff.",
+          "Emoji & Flat colors :art:"
+        ]
+      }
+    ],
     "installation": [
       {
         "p": "After installing the package, you just need to set up a test file where you `require` the `tester` package. Your `package.json` will look like this:"
@@ -50,7 +63,8 @@
       }
     ],
     "ex_img": "http://i.imgur.com/WzLYt7t.png",
-    "is_dev": true
+    "is_dev": true,
+    "show_usage": false
   },
   "devDependencies": {},
   "repository": {
