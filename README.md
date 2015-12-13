@@ -2,7 +2,7 @@
 
 Unit testing made simple and fun: flat colors and emoji in your tests.
 
-## :start: Features
+## :star: Features
 
  - It does *not* create any globals.
  - Writing messages in custom streams (by default in `process.stdout`).
