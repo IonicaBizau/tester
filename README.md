@@ -8,6 +8,7 @@ Unit testing made simple and fun: flat colors and emoji in your tests.
  - Writing messages in custom streams (by default in `process.stdout`).
  - Easy interface for handling sync and async stuff.
  - Emoji & Flat colors :art:
+ - Just run the test file using `node`
 
 [![tester](http://i.imgur.com/WzLYt7t.png)](#)
 

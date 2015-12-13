@@ -1,6 +1,6 @@
 {
   "name": "tester",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Unit testing made simple and fun: flat colors and emoji in your tests.",
   "main": "lib/index.js",
   "directories": {
@@ -13,12 +13,8 @@
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "license": "MIT",
   "dependencies": {
-    "color-it": "^1.1.0",
     "emoji-logger": "^1.0.0",
-    "emojic": "^1.0.0",
     "expect": "^1.13.0",
-    "indent": "0.0.1",
-    "indento": "^1.0.0",
     "queoid": "^1.0.0",
     "try-async": "^1.0.0"
   },
@@ -32,7 +28,8 @@
           "It does *not* create any globals.",
           "Writing messages in custom streams (by default in `process.stdout`).",
           "Easy interface for handling sync and async stuff.",
-          "Emoji & Flat colors :art:"
+          "Emoji & Flat colors :art:",
+          "Just run the test file using `node`"
         ]
       }
     ],
