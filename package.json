@@ -14,6 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "color-it": "^1.1.0",
+    "emoji-logger": "^1.0.0",
     "emojic": "^1.0.0",
     "expect": "^1.13.0",
     "indent": "0.0.1",

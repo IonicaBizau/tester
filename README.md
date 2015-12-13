@@ -37,12 +37,12 @@ const tester = require("../");
 tester.describe("Running some example tests", example => {
 
     // Without a callback (the code will be executed syncronously)
-    example.it("should be able to make simple checks using expect", () => {
+    example.should("be able to make simple checks using expect", () => {
         example.expect(true).toBe(true);
     });
 
     // Async function which will fail
-    example.it("should support async functions", (cb) => {
+    example.should("support async functions", (cb) => {
         setTimeout(function() {
             example.expect(true).toBe(false);
             cb();
@@ -109,9 +109,10 @@ For example, to have [**blue**](#) describe messages, you will do: `tester.color
 
 #### Loggers
 
-You can override any of the following functions:
+You can override any of the following fields
 
  - `loggers`
+   - `stream`: The stream where the messages will be written (default: `process.stdout`).
    - `it (err, itMessage, icon)`
    - `describe (message)`
 
@@ -133,6 +134,13 @@ This is a wrapper around the `expect` package.
 
 ### `it(what, fn)`
 Adds a new test in the describe queue.
+
+#### Params
+- **String** `what`: The test message.
+- **Function** `fn`: The callback function.
+
+### `should(what, fn)`
+Adds a new test in the describe queue prefixing the message with *should*.
 
 #### Params
 - **String** `what`: The test message.
