@@ -1,4 +1,6 @@
-# tester [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/tester.svg)](https://www.npmjs.com/package/tester) [![Downloads](https://img.shields.io/npm/dt/tester.svg)](https://www.npmjs.com/package/tester) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+
+# tester
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/tester.svg)](https://www.npmjs.com/package/tester) [![Downloads](https://img.shields.io/npm/dt/tester.svg)](https://www.npmjs.com/package/tester) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Unit testing made simple and fun: flat colors and emoji in your tests.
 
@@ -10,13 +12,16 @@
  - Emoji & Flat colors :art:
  - Just run the test file using `node`
 
+
 [![tester](http://i.imgur.com/WzLYt7t.png)](#)
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save-dev tester
 ```
+
+
 
 After installing the package, you just need to set up a test file where you `require` the `tester` package. Your `package.json` will look like this:
 
@@ -36,10 +41,13 @@ After installing the package, you just need to set up a test file where you `req
 
 `test/your-test-file.js` will contain your tests, like documented below.
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
-const tester = require("../");
+const tester = require("tester");
 
 // Use describe to group the tests
 tester.describe("Running some example tests", example => {
@@ -73,7 +81,8 @@ tester.describe("Running another set of tests", another => {
 });
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `Describe(message, fn)`
 Creates a new `Describe` instance.
@@ -161,10 +170,13 @@ Groups more tests together.
 - **String** `what`: The describe message.
 - **Function** `fn`: The callback function.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## License
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
