@@ -79,5 +79,16 @@
     "emoji",
     "flat",
     "colors"
+  ],
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
   ]
 }
