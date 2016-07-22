@@ -13,6 +13,8 @@
  - Emoji & Flat colors :art:
  - Just run the test file using `node`
 
+## Tip :bulb:
+Use the [`tester-init`](https://github.com/IonicaBizau/tester-init) to init the test file.
 
 [![tester](http://i.imgur.com/WzLYt7t.png)](#)
 
