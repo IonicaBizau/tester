@@ -1,6 +1,6 @@
 {
   "name": "tester",
-  "version": "1.3.4",
+  "version": "1.3.5",
   "description": "Unit testing made simple and fun: flat colors and emoji in your tests.",
   "main": "lib/index.js",
   "directories": {
