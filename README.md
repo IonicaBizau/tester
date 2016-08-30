@@ -93,7 +93,7 @@ Creates a new `Describe` instance.
 To change the default configuration, you can override the `tester` fields:
 
 ```js
-var tester = require("tester");
+let tester = require("tester");
 ```
 
 #### Colors
