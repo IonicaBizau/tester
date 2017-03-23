@@ -12,6 +12,7 @@
  - Easy interface for handling sync and async stuff.
  - Emoji & Flat colors :art:
  - Just run the test file using `node`
+
 ## Tip :bulb:
 Use the [`tester-init`](https://github.com/IonicaBizau/tester-init) to init the test file.
 
@@ -82,6 +83,15 @@ tester.describe("Running another set of tests", another => {
     });
 });
 ```
+
+## :question: Get Help
+
+There are few ways to get help:
+
+ 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
+ 2. For bug reports and feature requests, open issues. :bug:
+ 3. For direct and quick help from me, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
 
 ## :memo: Documentation
 
