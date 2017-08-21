@@ -13,6 +13,7 @@
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "dependencies": {
+    "difflet": "^1.0.1",
     "emoji-logger": "^1.0.0",
     "expect": "^1.13.0",
     "queoid": "^1.0.0",
