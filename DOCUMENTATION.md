@@ -8,7 +8,7 @@ Creates a new `Describe` instance.
 To change the default configuration, you can override the `tester` fields:
 
 ```js
-let tester = require("tester");
+let tester = require("tester")
 ```
 
 #### Colors
@@ -52,6 +52,7 @@ You can override any of the following fields
    - `describe (message)`
 
 #### Params
+
 - **String** `message`: The `Describe` message.
 - **Function** `fn`: The callback function.
 
@@ -59,6 +60,7 @@ You can override any of the following fields
 Runs the tests from this group.
 
 #### Params
+
 - **Function** `fn`: The callback function.
 
 ### `expect()`
@@ -71,6 +73,7 @@ This is a wrapper around the `expect` package.
 Adds a new test in the describe queue.
 
 #### Params
+
 - **String** `what`: The test message.
 - **Function** `fn`: The callback function.
 
@@ -78,6 +81,7 @@ Adds a new test in the describe queue.
 Adds a new test in the describe queue prefixing the message with *should*.
 
 #### Params
+
 - **String** `what`: The test message.
 - **Function** `fn`: The callback function.
 
@@ -85,6 +89,7 @@ Adds a new test in the describe queue prefixing the message with *should*.
 Groups more tests together.
 
 #### Params
+
 - **String** `what`: The describe message.
 - **Function** `fn`: The callback function.
 
