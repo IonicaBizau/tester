@@ -9,6 +9,7 @@
 
 ## :star: Features
 
+
  - It does *not* create any globals.
  - Writing messages in custom streams (by default in `process.stdout`).
  - Easy interface for handling sync and async stuff.
@@ -16,6 +17,7 @@
  - Just run the test file using `node`
 
 ## Tip :bulb:
+
 Use the [`tester-init`](https://github.com/IonicaBizau/tester-init) to init the test file.
 
 [![tester](http://i.imgur.com/WzLYt7t.png)](#)
@@ -43,6 +45,7 @@ After installing the package, you just need to set up a test file where you `req
   }
 }
 ```
+
 
 `test/your-test-file.js` will contain your tests, like documented below.
 
@@ -94,7 +97,9 @@ There are few ways to get help:
 
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
+
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
 
 
 ## :memo: Documentation
