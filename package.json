@@ -14,8 +14,9 @@
   "license": "MIT",
   "dependencies": {
     "difflet": "^1.0.1",
-    "emoji-logger": "^1.0.0",
+    "emoji-logger": "^1.0.11",
     "expect": "^1.13.0",
+    "is-win": "^1.0.7",
     "queoid": "^1.0.0",
     "try-async": "^1.0.0"
   },
