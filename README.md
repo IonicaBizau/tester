@@ -25,7 +25,11 @@ Use the [`tester-init`](https://github.com/IonicaBizau/tester-init) to init the 
 ## :cloud: Installation
 
 ```sh
-$ npm i --save-dev tester
+# Using npm
+npm install --save tester
+
+# Using yarn
+yarn add tester
 ```
 
 
