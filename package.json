@@ -1,6 +1,6 @@
 {
   "name": "tester",
-  "version": "1.4.5",
+  "version": "1.4.6",
   "description": "Unit testing made simple and fun: flat colors and emoji in your tests.",
   "main": "lib/index.js",
   "directories": {
@@ -97,6 +97,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
