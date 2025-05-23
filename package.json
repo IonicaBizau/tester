@@ -15,7 +15,7 @@
   "dependencies": {
     "difflet": "^1.0.1",
     "emoji-logger": "^1.0.11",
-    "expect": "^1.13.0",
+    "expect": "^29.7.0",
     "is-win": "^1.0.7",
     "queoid": "^1.0.0",
     "try-async": "^1.0.0"
@@ -69,7 +69,6 @@
     "is_dev": true,
     "show_usage": false
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IonicaBizau/tester.git"
